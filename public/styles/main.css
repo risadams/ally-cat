@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
+body > footer {
+  position: sticky;
+  top: calc(100vh - 60px);
+  padding: 16px;
+}
+
+.loader {
+  display: none;
+}
