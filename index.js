@@ -1,7 +1,7 @@
 const pa11y = require('pa11y');
 const express = require('express');
 
-const PORT = process.env.PORT || 4000;
+var port = process.env.PORT || 8080;
 
 const app = express();
 
@@ -16,6 +16,6 @@ app.get('/api/test', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Listening on port: ${PORT}`);
+app.listen(port, () => {
+  console.log(`Listening on port: ${port}`);
 });
