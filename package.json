@@ -1,6 +1,6 @@
 {
   "name": "@risadams/ally-cat",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "An accessibility API for everyone",
   "main": "index.js",
   "scripts": {
