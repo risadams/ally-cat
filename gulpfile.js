@@ -10,6 +10,6 @@ function buildStyles() {
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./public/styles'));
-};
+}
 
 exports.default = buildStyles;
