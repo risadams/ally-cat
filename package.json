@@ -38,6 +38,6 @@
     "gulp-sourcemaps": "3.0.0",
     "gulp-uglify": "3.0.2",
     "jshint": "2.13.1",
-    "sass": "1.45.0"
+    "sass": "1.45.1"
   }
 }
